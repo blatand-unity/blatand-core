@@ -2,8 +2,8 @@
 
 |                   | Android                | iOS                                                | Linux       | Windows     |
 | ----------------- | :--------------------: | :------------------------------------------------: | :---------: | :---------: |
-| Bluetooth Classic | :x: Planned            | :x: [Not planned](#why-ios-support-is-not-planned) | :x: Planned | :x: Planned |
-| Bluetooth LE      | :heavy_check_mark: 70% | :x: [Not planned](#why-ios-support-is-not-planned) | :x: Planned | :x: Planned |
+| Bluetooth Classic | :x: Planned            | :x: [Not planned](#why-ios-support-is-not-planned-) | :x: Planned | :x: Planned |
+| Bluetooth LE      | :heavy_check_mark: 70% | :x: [Not planned](#why-ios-support-is-not-planned-) | :x: Planned | :x: Planned |
 
 ## Getting Started
 
