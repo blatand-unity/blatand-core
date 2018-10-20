@@ -38,7 +38,7 @@ namespace Blatand.Core.Android
             public InternalDeprecatedScanCallback(Scanner source) : base()
             {
                 m_source = source;
-      
+
             }
 
             public override void OnLeScan(AndroidJavaObject androidDevice, int rssi)
@@ -68,7 +68,7 @@ namespace Blatand.Core.Android
         #endregion
 
         public static Scanner NewScanner()
-        {       
+        {
             if (Scanner.GetSDKInt() >= 21)
             {
                 return new Scanner(BluetoothAdapter.GetSystemAdapter().AndroidObject.Call<AndroidJavaObject>("getBluetoothLeScanner"));
